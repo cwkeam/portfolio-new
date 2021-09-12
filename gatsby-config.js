@@ -82,7 +82,7 @@ module.exports = {
       {
         name: 'Williams College | CSCI 237 Teaching Assistant, Alumni Fund Stewardship | Dec 2019 ~ Mar 2020',
         description: `[CSCI 237 TA] Ran T.A. sessions for students in need of help for CSCI 237 Computer Organization. </br>[AF Stewardship] One of 4 selected students for this role to serve as an intermediary between the Alumni Fund office and the school's alumni. Communicate with alumni and donors as requested by Alumni Fund staff, including prompt responses to messages received. Assist with Alumni Fund and OCR events as scheduled.</br></br>`,
-        link: 'williams.com',
+        link: 'https://williams.com',
       },
       {
         name: 'Blueprint Education Shanghai (蓝图教育) | SWE Intern | July 2019 ~ Aug 2019',
