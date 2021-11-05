@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Chan Woo! | AI Research to Production`,
     // Description that goes under your name in main bio
-    description: `🇰🇷🇨🇳🇺🇸 Born in Korea, raised in Shanghai, attending Williams College for college. In research, I focus on NLP and Computer Vision, especailly in using them for education-related technologies. In software development, I usually build services with React & Docker.`,
+    description: `🇰🇷🇨🇳🇺🇸 Born in Korea, raised in Shanghai, attending Williams College for college. My main research interests are in NLP and Computer Vision, especailly in relation to education technologies. For production services, I usually build solutions with React & Docker. Contact me at ck15@williams.edu.`,
     // Optional: Twitter account handle
     // author: `@rfitzio`,
     // Optional: Github account URL
@@ -34,6 +34,13 @@ module.exports = {
       }
     ],
     projects: [
+      {
+        name: '[Project] nlp.1theta.com',
+        image: "/images/nlp1theta.png",
+        description:
+          `This multipage streamlit app displays various NLP engines I developed in my free time. Its main concept is DLTR: Do Little Things Right, attempting to reliably master simpler and specific NLP operations in order to tackle the bigger problems.`,
+        link: 'http://nlp.1theta.com',
+      },
       {
         name: '[Patent] Automatic "Words in Context" Question Generation using Word Sense Disambiguation',
         image: "/images/comparison_wic.png",
