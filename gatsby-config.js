@@ -46,7 +46,7 @@ module.exports = {
         image: "/images/comparison_wic.png",
         description:
           `As part of my work at LXPER Inc., I've filed for patent in Korea a novel NLP engine I built that automatically generates high-level vocabulary questions. LXPER aims to build an AI-based platform to automatically generate test questions to more rapidly create educational content. My work uses BERT-based models to generate questions that test one of the core parts of learning vocabulary: the many meanings words have with nuanced differences in different contexts.`,
-        link: '/files/wsd.pdf',
+        link: 'http://m.kipris.or.kr/mobile/remoteFile.do?method=patentFullText&applno=1020200120614&pub_reg=R',
       },
       {
         name: "[Production] danmooji",
