@@ -10,8 +10,8 @@ import React from 'react';
 const classes = {
   // wrapper: 'mb-6',
   imageWrapper: 'w-full max-w-500',
-  name: 'font-semibold text-gray-900 pb-1',
-  description: 'text-gray-800 font-light text-md',
+  name: 'font-semibold text-gray-900 pb-4',
+  // description: 'text-gray-800 font-light text-md',
 };
 
 const SummaryLink = ({ name, description = false, image = false, link = false, internal = false }) => {
