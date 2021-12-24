@@ -21,6 +21,10 @@ module.exports = {
     // // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     news: [
       {
+        name: `Towards Data Science Publication "Generalized Attention Mechanism: BigBird's Theoretical Foundation and General Transformers Models"`,
+        link: "https://towardsdatascience.com/generalized-attention-mechanism-bigbirds-theoretical-foundation-and-general-transformers-models-9fb87bdac3b2",
+      },
+      {
         name: "Emergent Systems Colloquium @ Williams College",
         link: "https://csci.williams.edu/colloquium-emergent-system/",
       },
