@@ -21,6 +21,10 @@ module.exports = {
     // // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     news: [
       {
+        name: `Special Award 2021년 인공지능 데이터 활용 경진대회 (Korean government sponsored national competition for developing an AI service with AI Hub data)`,
+        link: "http://aihub-competition.or.kr/aidea",
+      },
+      {
         name: `Towards Data Science Publication "Generalized Attention Mechanism: BigBird's Theoretical Foundation and General Transformers Models"`,
         link: "https://towardsdatascience.com/generalized-attention-mechanism-bigbirds-theoretical-foundation-and-general-transformers-models-9fb87bdac3b2",
       },
@@ -39,6 +43,14 @@ module.exports = {
     ],
     projects: [
       {
+        name: '[Project] K-COORD: Korean Fashion Analysis / Retrieval with Match & Attribute R-CNN',
+        image: "/images/kcoord.png",
+        description:
+          `This project won a Spcial Award in the 2021 AI Service Competition (2021년 인공지능 데이터 활용 경진대회). The core idea of the service was use AI to enhance accessibility to Korean fashion products, specifically for international markets. The demonstration video, idea proposal, and the slide deck that contains all relevant information (including detailed engineering descriptions) can be found in the link. We utilized three deep learning technologies for this project: 1. Match R-CNN trained on Deepfashion2 for extracting features for product matching, 2. FAISS + Metric Learning for actual product retrieval, and 3. a multi-head Attribute R-CNN model that we created ourselves. The code for the Attribute R-CNN model can be found at here: https://github.com/K-COORD/K-Fashion.`,
+        link: 'https://drive.google.com/drive/folders/1m-3j8kCtiLFUXb1FrMffUw1lcjgWrNew?usp=sharing',
+      },
+
+      {
         name: '[Project] nlp.1theta.com',
         image: "/images/nlp1theta.png",
         description:
@@ -49,7 +61,7 @@ module.exports = {
         name: '[Patent] Automatic "Words in Context" Question Generation using Word Sense Disambiguation',
         image: "/images/comparison_wic.png",
         description:
-          `As part of my work at LXPER Inc., I've filed for patent in Korea a novel NLP engine I built that automatically generates high-level vocabulary questions. LXPER aims to build an AI-based platform to automatically generate test questions to more rapidly create educational content. My work uses BERT-based models to generate questions that test one of the core parts of learning vocabulary: the many meanings words have with nuanced differences in different contexts.`,
+          `As part of my work at LXPER Inc., I've registered a patent in Korea (currently processing for international patent) for a novel NLP engine I built that automatically generates high-level vocabulary questions. LXPER aims to build an AI-based platform to automatically generate test questions to more rapidly create educational content. My work uses word sense disambiguation transformers models to automatically generate questions that test one of the core parts of learning vocabulary: the many meanings words have with nuanced differences in different contexts. `,
         link: 'http://m.kipris.or.kr/mobile/remoteFile.do?method=patentFullText&applno=1020200120614&pub_reg=R',
       },
       {
@@ -76,7 +88,7 @@ module.exports = {
         link: "https://www.peakperfs.org/event/grand-band/2020-02-14/"
       },
       {
-        name: "[Publication] NtMalDetect: A Machine Learning Approach to Malware Detection Using Native API System Calls",
+        name: "[Intel ISEF 2018 Research Paper] NtMalDetect: A Machine Learning Approach to Malware Detection Using Native API System Calls",
         image: "",
         link: "https://arxiv.org/abs/1802.05412",
         description: `Advised by <a href="https://scholar.google.com/citations?user=pP6yo9EAAAAJ&hl=en" style="color:blue">Dr. Hyrum Anderson</a>. An ML approach to malware detection using NLP methods. At the <a style="color:blue" href="https://en.wikipedia.org/wiki/International_Science_and_Engineering_Fair">Intel International Science and Engineering Fair 2018</a> with 1800+ participants, this project won the following awards: $1000 Special Award from the <a style="color:blue" href="https://www.unicef.org/gulf/press-releases/king-abdulaziz-his-companions-foundation-giftedness-creativity-mawhiba-supports">King Abdulaziz Foundation for Giftedness</a>, $1200 Special Award from the <a style="color:blue" href="http://english.cast.org.cn/">China Association for Science and Technology</a>, 4th Place Grand Award for Systems Software. At the regional Sichuan Science Fair, this project won 1st place and the <a style="color:blue" href="https://ysea.org/">Yale Science and Engineering Award</a>.`
@@ -85,6 +97,11 @@ module.exports = {
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
+      {
+        name: 'Osan Air Base, Republic of Korea Air Force | Senior Airman | Dec 2020 ~ Sept 2022',
+        description: `Currently fulfilling my mandatory military service as a Korean citizen, working on AI research in my free time.`,
+        link: '#',
+      },
       {
         name: 'LXPER Inc. | AI Researcher, Full Stack Developer | June 2020 ~ Dec 2020',
         description: `During my time at LXPER, I've filed for three patents for novel NLP pipelines for automatic question generation. With these patented pipelines and other miscellaneous engines, I launched a new product at the company: danmoooji. </br></br>`,

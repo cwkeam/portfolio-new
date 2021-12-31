@@ -4,7 +4,7 @@
 
 @layer base {
   .blog-content {
-    @apply text-gray-600;
+    @apply text-black;
     @apply max-w-screen-md;
   }
 /* 
