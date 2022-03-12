@@ -7,21 +7,22 @@ module.exports = {
     // Main Site Title
     title: `Chan Woo! | AI Research to Production`,
     // Description that goes under your name in main bio
-    description: `🇰🇷🇨🇳🇺🇸 Born in Korea, raised in Shanghai, attending Williams College for college. My main research interests are in NLP and Computer Vision, especailly in relation to education technologies. For production services, I usually build solutions with React & Docker. Contact me at ck15@williams.edu.`,
-    // Optional: Twitter account handle
-    // author: `@rfitzio`,
-    // Optional: Github account URL
-    github: `https://github.com/codeandproduce`,
+    description: `🇰🇷🇨🇳🇺🇸 Born in Korea, raised in Shanghai, attending Williams College for college. My main research interests are in NLP and Computer Vision, especailly in relation to education technologies. For production services, I usually build solutions with React & Docker.`,
+    author: "cwkeam",
+    github: `https://github.com/cwkeam`,
     medium: `https://medium.com/machine-learning-intuition`,
     instagram: `https://www.instagram.com/cwkeam/`,
-    // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/chanwkim/`,
     // Content of the About Me section
     // about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
     // // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     news: [
       {
-        name: `Special Award 2021년 인공지능 데이터 활용 경진대회 (Korean government sponsored national competition for developing an AI service with AI Hub data)`,
+        name: `Official Hugging Face Blog Post About My "Constrained Beam Search" Feature Contribution Now Live @ huggingface.co/blog!`,
+        link: "https://huggingface.co/blog/constrained-beam-search",
+      },
+      {
+        name: `Special Award 2021년 인공지능 데이터 활용 경진대회 (Korean Government-Sponsored National AI Service Competition)`,
         link: "http://aihub-competition.or.kr/aidea",
       },
       {
@@ -37,11 +38,17 @@ module.exports = {
         link: "https://www.peakperfs.org/event/grand-band/2020-02-14/"
       },
       {
-        name: "Hackathon spotlight: My chat with WebHacks winner Milky 🙌",
+        name: `Manifold.co Blog Post about WebHacks2017 1st place: "Hackathon spotlight: My chat with WebHacks winner Milky 🙌"`,
         link: "https://medium.com/manifoldco/hackathon-spotlight-my-chat-with-webhacks-winner-milky-505dea8ddc9f"
       }
     ],
     projects: [
+      {
+        name: `[Open Source] "Constrained Beam Search" Feature Contribution @ Hugging Face Transformers `,
+        image: "https://raw.githubusercontent.com/huggingface/blog/master/assets/53_constrained_beam_search/thumbnail.png",
+        description: `This project started from posting an <a style="color:blue" href="https://github.com/huggingface/transformers/issues/14081">initial Github issue</a> about the potential feature contribution, solved in two large PR merges finalized <a style="color:blue" href="https://github.com/huggingface/transformers/pull/15761">here</a>, resulting in a <a style="color:blue" href="https://huggingface.co/blog/constrained-beam-search">guest blog post</a> promoting this new Transformers library feature. This new feature allows the user to <i>guide text generation with custom constraints</i>, such as forcing the inclusion of certain phrases, all the while maintaining sensible output.`,
+        link: "https://huggingface.co/blog/constrained-beam-search"
+      },
       {
         name: '[Project] K-COORD: Korean Fashion Analysis / Retrieval with Match & Attribute R-CNN',
         image: "/images/kcoord.png",
@@ -98,8 +105,8 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Osan Air Base, Republic of Korea Air Force | Senior Airman | Dec 2020 ~ Sept 2022',
-        description: `Currently fulfilling my mandatory military service as a Korean citizen, working on AI research in my free time.`,
+        name: 'Osan Air Base, Republic of Korea Air Force | Staff Sergeant | Dec 2020 ~ Sept 2022',
+        description: 'Currently fulfilling my mandatory military service as a Korean citizen.</br></br>',
         link: '#',
       },
       {
